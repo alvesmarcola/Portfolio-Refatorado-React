@@ -1,0 +1,73 @@
+.portfolio__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition: box-shadow .35s;
+    box-shadow: 0.5rem 0.5rem 0 0.125rem; 
+    overflow: hidden;
+    max-width: 350px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.project__items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.project__item{
+    color: #3a3a3a;
+    font-size: .75rem;
+    font-weight: 500;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #929292;
+    letter-spacing: 1px;
+    transition: color .35s, border-color .35s, font-weight .35s;
+}
+
+.project__banner-img{
+    width: 100%;
+    height: 100%;
+    object-position: top center;
+    object-fit: cover;
+    transform-origin: center top;
+    transition: transform .35s;
+}
+
+.project__link{
+    font-size: 25px;
+    color: #986dff;
+    fill: #986dff;
+    transition: fill .35s;
+}
+.project__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.25rem;
+}
+
+.portfolio__container {
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  .portfolio__column {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-bottom: 35px;
+  }

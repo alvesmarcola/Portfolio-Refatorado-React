@@ -1,6 +1,16 @@
 import React from 'react'
 import "./skills.css"
 
+
+import html from '../../assets/images/skills/html-1.svg'
+import js from '../../assets/images/skills/logo-javascript.svg'
+import css from '../../assets/images/skills/css-3.svg'
+import java from '../../assets/images/skills/java-4.svg'
+import vue from '../../assets/images/skills/vue-9.svg'
+import react from '../../assets/images/skills/react-2.svg'
+import php from '../../assets/images/skills/php-1.svg'
+import sass from '../../assets/images/skills/sass-1.svg'
+
 const Skills = () => {
   return (
     <section className="skills section init-hidden" id="skills" data-aos="fade-up">
@@ -21,7 +31,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="../../assets/images/skills/html-1.svg" alt="" />
+                        <img src={html} alt="" />
                       </div>
                       <h3 className="skills__name"> HTML </h3>
                     </div>
@@ -31,7 +41,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="images/skills/css-3.svg" alt="" />
+                        <img src={css} alt="" />
                       </div>
                       <h3 className="skills__name"> CSS </h3>
                     </div>
@@ -41,7 +51,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="images/skills/logo-javascript.svg" alt="" />
+                        <img src={js} alt="" />
                       </div>
                       <h3 className="skills__name"> JavaScript </h3>
                     </div>
@@ -51,7 +61,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="images/skills/sass-1.svg" alt="" />
+                        <img src={sass} alt="" />
                       </div>
                       <h3 className="skills__name"> Sass </h3>
                     </div>
@@ -61,7 +71,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="images/skills/vue-9.svg" alt="" />
+                        <img src={vue} alt="" />
                       </div>
                       <h3 className="skills__name"> VueJs </h3>
                     </div>
@@ -71,7 +81,7 @@ const Skills = () => {
                   <div className="skills__info skill1">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="images/skills/react-2.svg" alt="" />
+                        <img src={react} alt="" />
                       </div>
                       <h3 className="skills__name"> React </h3>
                     </div>
@@ -94,7 +104,7 @@ const Skills = () => {
                   <div className="skills__info skill4">
                     <div className="skills__data">
                       <div className="skills__blob">
-                        <img src="../../assets/images/skills/php-1.svg" alt="" />
+                        <img src={php} alt="" />
                       </div>
                       <h3 className="skills__name"> PHP </h3>
                     </div>
@@ -104,7 +114,7 @@ const Skills = () => {
                   <div class="skills__info skill4">
                     <div class="skills__data">
                       <div class="skills__blob">
-                        <img src="images/skills/java-4.svg" alt="" />
+                        <img src={java} alt="" />
                       </div>
                       <h3 class="skills__name"> Java </h3>
                     </div>

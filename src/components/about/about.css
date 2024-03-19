@@ -8,6 +8,10 @@
 .about__data {
     grid-column: 2; 
 }
+
+.skills__data{
+    margin-bottom: 15px;
+}
 .about__img {
     max-width: 70%;
     border-radius: 100px;

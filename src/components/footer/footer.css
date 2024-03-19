@@ -1,0 +1,23 @@
+
+.footer__inner-container {
+    padding-top: 1.75rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-evenly;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__mailto-link {
+    text-decoration: underline;
+    color: #986dff;
+    transition: color .35s;
+}
+
+.footer__social-wrapper {
+    display: flex;
+    gap: 35px;
+}

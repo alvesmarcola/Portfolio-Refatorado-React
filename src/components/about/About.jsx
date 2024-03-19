@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "./about.css";
 import Image from '../../assets/images/marcos.png';
 
+
 const About = () => {
     return (
         <motion.section

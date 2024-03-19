@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
+import Footer from './components/footer/Footer';
 
 import './index.css'
 
@@ -21,6 +22,7 @@ function App() {
         <Services />
         <Skills />
         <Portfolio />
+        <Footer />
       </main>
     </>
   );
