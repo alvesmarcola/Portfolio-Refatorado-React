@@ -76,6 +76,8 @@
     background-color: white;
     padding: 1.5rem;
     border-radius: .5rem;
+    max-width: fit-content;
+    margin: auto;
   }
   
   .services__modal-close {

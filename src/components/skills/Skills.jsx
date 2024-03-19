@@ -15,14 +15,14 @@ const Skills = () => {
   return (
     <section className="skills section init-hidden" id="skills" data-aos="fade-up">
       <div className="container">
-        <h2 className="section__title">Habilidades</h2>
-        <span className="section__subtitle">Meus conhecimentos atuais</span>
+        <h2 className="section__title" data-translate="my-skills">Habilidades</h2>
+        <span className="section__subtitle" data-translate="atual-skills">Meus conhecimentos atuais</span>
 
         <div className="row">
           {/* Front End */}
           <div className="col-lg-6">
             <div className="skills__content">
-              <h3 className="skills__title">
+              <h3 className="skills__title" data-translate="front">
                 <i className="uil uil-brackets-curly"></i> Desenvolvimento Front End
               </h3>
 
@@ -95,7 +95,7 @@ const Skills = () => {
           {/* Back End */}
           <div className="col-lg-6">
             <div className="skills__content">
-              <h3 className="skills__title">
+              <h3 className="skills__title" data-translate="back">
                 <i className="uil uil-shopping-cart"></i> Desenvolvimento Back End
               </h3>
 

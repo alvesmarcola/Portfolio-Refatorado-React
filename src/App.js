@@ -9,15 +9,19 @@ import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
 
+// Hooks
+import useTranslation from './hooks/Translate'
+
+//Styles
 import './index.css'
 import './medias.css'
 
 function App() {
+  const { changeLanguage } = useTranslation();
   return (
     <>
-      < Sidebar />
+      <Sidebar changeLanguage={changeLanguage} />
       <main className='main'>
-        <Sidebar />
         <Home />
         <About />
         <Services />

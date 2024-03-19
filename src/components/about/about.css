@@ -85,17 +85,17 @@
 }
 
 .front{
-    width: 80%;
+    
     background-color: rgb(255,209,92);
 }
 
 .ui{
-    width: 20%;
+   
     background-color: rgb(255,76,96);
 }
 
 .back{
-    width: 60%;
+    
     background-color: rgb(108,108,299);
 }
 

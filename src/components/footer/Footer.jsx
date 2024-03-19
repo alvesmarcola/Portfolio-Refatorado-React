@@ -40,7 +40,7 @@ const footer = () => {
                 </ul>
             </div>
             <div className="footer__attributions">
-                <p className="footer__author">Desenvolvido por <a className="footer__link-bottom" aria-label="Link para github" href="https://github.com/alvesmarcola" rel="noreferrer" target="_blank">Marco Alves</a></p>
+                <p className="footer__author">By <a className="footer__link-bottom" aria-label="Link para github" href="https://github.com/alvesmarcola" rel="noreferrer" target="_blank">Marco Alves</a></p>
             </div>
         </footer>
     );

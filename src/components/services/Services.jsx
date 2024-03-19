@@ -18,7 +18,7 @@ const Services = () => {
     return (
         <section className="services section" id="services">
             <h1 className="section__title" data-translate="services">Serviços</h1>
-            <span className="section__subtitle" data-translate="servicestwo">O que eu posso lhe oferecer?</span>
+            <span className="section__subtitle" data-translate="services-two">O que eu posso lhe oferecer?</span>
 
             {/* Serviço 1 */}
             <div className="services__container">
@@ -66,7 +66,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-brush-alt services__icon"></i>
-                        <h3 className="services__title" data-translate="skill-one">Desenvolvimento <br /> Front-end</h3>
+                        <h3 className="services__title" data-translate="front">Desenvolvimento <br /> Front-end</h3>
                     </div>
 
                     <span className="button button--flex button--small button--link services__button" onClick={toggleModal2}>

@@ -10,10 +10,10 @@ import hub from '../../assets/images/hub.png'
 const Portfolio = () => {
   return (
 
-    <div className="portfolio__container">
+    <div className="portfolio__container" id='portfolio'>
       <div className="titles">
       <h2 className="section__title">Portfólio</h2>
-      <span className="section__subtitle">Meus últimos projetos desenvolvidos</span>
+      <span className="section__subtitle" data-translate="old">Meus últimos projetos desenvolvidos</span>
       </div>
       <div className="portfolio__column">
         <div className="portfolio__card">
