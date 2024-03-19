@@ -101,3 +101,8 @@
 
 /* --- Responsive --- */
 
+@media (max-width:965px) {
+    .about__data{
+        display: block;
+    }
+}

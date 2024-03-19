@@ -10,6 +10,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
 
 import './index.css'
+import './medias.css'
 
 function App() {
   return (

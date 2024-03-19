@@ -95,7 +95,7 @@
 
 .services__modal-content{
     position: relative;
-    background-color: var(--container-color);
+    background-color: #f5f5f5;
     padding: 1.5rem;
     border-radius: .5rem;
 }
