@@ -3,7 +3,7 @@
     height: var(--header-height);
     display: flex;
     justify-content: center;
-    align-items: center;
+
 
   }
 
@@ -22,21 +22,6 @@
 
   .nav__toggle::hover{
     color:var(--first-color);
-  }
-
-  @media screen and (max-width: 768px){
-    .nav__menu{
-      position: fixed;
-      bottom: -100%;
-      left: 0;
-      width: 100%;
-      padding: 2rem 1.5rem 4rem;
-      background-color: var(--body-color);
-      box-shadow: 0 4px 4px rgba(0,0,0,.1);
-      border-radius: 0 0 1rem 1rem;
-      transition: .3s;
-      border: 1px solid;
-    }
   }
 
   .nav__list{
@@ -157,10 +142,21 @@
         transition: .3s;
         border: 1px solid;
     }
+    header{
+    position: fixed;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    border-radius: 0 0 1rem 1rem;
+    transition: .3s;
+    border: 1px solid;
+    z-index: 1000;
+    background-color: var(--body-color);
+    }
 
     .nav__menu.show-menu {
         bottom: 0;
         z-index: 1000;
+        position: fixed;
+        
     }
 }
 

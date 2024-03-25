@@ -2,6 +2,7 @@ import React from 'react'
 import "./skills.css"
 
 
+
 import html from '../../assets/images/skills/html-1.svg'
 import js from '../../assets/images/skills/logo-javascript.svg'
 import css from '../../assets/images/skills/css-3.svg'

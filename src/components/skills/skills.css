@@ -42,6 +42,7 @@
 
 .skills__blob img {
     width: 40px;
+    animation: bounce;
 }
 
 @keyframes bounce {
