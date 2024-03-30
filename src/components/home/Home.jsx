@@ -8,10 +8,10 @@ const Home = () => {
       <div className="home__container container grid">
         <div className="home__content">
           <div className="home__social">
-            <a href="https://www.linkedin.com/in/marco-undefined-254021275/" className="home__social-icon" target="_blank">
+            <a href="https://www.linkedin.com/in/omarcolvess/" className="home__social-icon" target="_blank">
               <i className="uil uil-linkedin"></i>
             </a>
-            <a href="#" className="home__social-icon" target="_blank">
+            <a href="https://www.instagram.com/alvess_marcoo/" className="home__social-icon" target="_blank">
               <i className="uil uil-instagram"></i>
             </a>
             <a href="https://github.com/alvesmarcola" className="home__social-icon" target="_blank">

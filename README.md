@@ -1,23 +1,31 @@
-Portfólio React
+# Portfólio React
+
 Este é o meu portfólio desenvolvido em React, onde compartilho informações sobre mim, os serviços que ofereço, minhas habilidades e projetos que desenvolvi.
 
+## Home
 
-Home
-Bem-vindo ao meu portfólio! Aqui você uma breve descrição e redes sociais.
+Bem-vindo ao meu portfólio! Aqui você encontrará uma breve descrição sobre mim e pode me encontrar nas seguintes redes sociais:
 
+- [LinkedIn](https://www.linkedin.com/in/omarcolvess/)
+- [GitHub](https://github.com/alvesmarcola)
+- [Instagram](https://www.instagram.com/alvess_marcoo/)
 
-Sobre Mim
-Bolsista em desenvolvimento Full-Stack pela Growdev no programa DESPERTAR.DEV e com conhecimento em linguagem Java. Além de produções para redes sociais utilizando Photoshop. Apenas 17 anos e grande identificação pela criação e desenvolvimento de interfaces, buscando cada vez mais profissionalismo e inovação. Também disponível meu currículo para download.
+## Sobre Mim
 
+Sou bolsista em desenvolvimento Full-Stack pela Growdev no programa DESPERTAR.DEV, com conhecimento em linguagem Java e experiência em produções para redes sociais utilizando Photoshop. Aos 17 anos, tenho grande identificação pela criação e desenvolvimento de interfaces, buscando cada vez mais profissionalismo e inovação. Meu currículo está disponível para download.
 
-Serviços
-Essa section exibe meus serviços front end, produção de boots automatizados e deixo de fora back end, porém discutível inserir de volta.
+## Serviços
 
+Aqui estão alguns dos serviços que ofereço:
 
-Skills
-Exibo linguagens com quais tive contato e estudo. VueJs e Java, são linguagens que estudei e construí projetos práticos, mas não são mais foco meu.
+- Desenvolvimento Front-End
+- Produção de Bots Automatizados
 
+## Skills
 
-Projetos
-Nessa section destaco alguns do meus projetos produzidos. (Não tem projetos Back End)
+Exibo as linguagens com as quais tive contato e estudo. Vue.js e Java são linguagens que estudei e construí projetos práticos, mas não são mais meu foco principal.
+
+## Projetos
+
+Nessa section destaco alguns do meus projetos produzidos (Não tem projetos Back End).
 
