@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 const translations = {
     'home': { en: 'Home', pt: 'Início' },
     'about': { en: 'About Me', pt: 'Sobre Mim' },
-    '': { en: '', pt: 'Habilidades' },
+    'skills': { en: 'Skills', pt: 'Habilidades' },
     'services': { en: 'Services', pt: 'Serviços' },
     'contact': { en: 'Contact', pt: ' Contato ' },
     'developer': { en: 'Front-End Developer ', pt: 'Desenvolvedor Front-end ' },
@@ -35,16 +35,12 @@ const translations = {
 
     'efeito': { en: 'What does this service give you?', pt: 'O que esse serviço te proporciona?' },
 
-    'one': { en: 'Organized social networks;', pt: 'Redes Sociais organizadas;' },
-    'two': { en: 'Professional content production;', pt: 'Produção de conteúdo profissional;' },
     'three': { en: 'I transform complex concepts into simple art;', pt: 'Transformo conceitos complexos em artes simples;' },
     'four': { en: 'Identifying with the client.', pt: 'Passar identificação com o cliente.' },
     'five': { en: 'Leverage your business;', pt: 'Alavancagem do seu negócio;' },
     'six': { en: 'Responsive, fast-loading websites;', pt: 'Sites responsivos e de carregamento rápido;' },
     'seven': { en: 'Modern Standards;', pt: 'Padrões modernos;' },
     'eight': { en: 'Professional and innovative interfaces.', pt: 'Interfaces profissionais e inovadoras;' },
-    'nine': { en: 'Practical and professional app;', pt: 'App prático e profissinal;' },
-    'ten': { en: 'Easy for your E-Commerce.', pt: 'Facilidade para seu E-Commerce.' },
 
     'my-skills': {en: 'Skills', pt: 'Habilidades'},
     'atual-skills': {en: 'My current skills', pt:'Minhas habilidades atuais'},

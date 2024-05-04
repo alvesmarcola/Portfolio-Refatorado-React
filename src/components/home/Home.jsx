@@ -1,10 +1,16 @@
-import React from 'react'
-import './home.css'
-
+import React from 'react';
+import { motion } from 'framer-motion';
+import './home.css';
 
 const Home = () => {
   return (
-    <section className="home section site" id="home">
+    <motion.section
+      className="home section site"
+      id="home"
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1.8 }}
+    >
       <div className="home__container container grid">
         <div className="home__content">
           <div className="home__social">
@@ -37,7 +43,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

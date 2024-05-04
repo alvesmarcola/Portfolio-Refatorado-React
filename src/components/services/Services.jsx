@@ -95,7 +95,7 @@ const Services = () => {
                                     </li>
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p data-translate="eigtht">interfaces profissonais e inovadoras.</p>
+                                        <p data-translate="eight">interfaces profissonais e inovadoras.</p>
                                     </li>
                                 </ul>
                             </div>

@@ -1,27 +1,33 @@
-import React from 'react'
-import "./portfolio.css"
-
-
-
-import growflix from '../../assets/images/grow.png'
-import codai from '../../assets/images/codai.png'
-import expansive from '../../assets/images/expansive.png' 
-import hub from '../../assets/images/hub.png'
-
+import React from 'react';
+import "./portfolio.css";
+import growflix from '../../assets/images/grow.png';
+import codai from '../../assets/images/codai.png';
+import expansive from '../../assets/images/expansive.png'; 
+import hub from '../../assets/images/hub.png';
+import { motion } from 'framer-motion';
 
 const Portfolio = () => {
 
   return (
-
     <div className="portfolio__container" id='portfolio'>
       <div className="titles">
-      <h2 className="section__title">Portfólio</h2>
-      <span className="section__subtitle" data-translate="old">Meus últimos projetos desenvolvidos</span>
+        <h2 className="section__title">Portfólio</h2>
+        <span className="section__subtitle" data-translate="old">Meus últimos projetos desenvolvidos</span>
       </div>
       <div className="portfolio__column">
-        <div className="portfolio__card">
+        <motion.div
+          className="portfolio__card"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+        >
           <a href="#" className="project__banner">
-            <img src={growflix} alt="" className="project__card-img" />
+            <motion.img
+              src={growflix}
+              alt=""
+              className="project__card-img"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+            />
           </a>
           <div className="project__content">
             <h3>Growflix</h3>
@@ -43,11 +49,22 @@ const Portfolio = () => {
               <i className="uil uil-eye"></i>
             </a>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="portfolio__card">
-        <a href="#" className="project__banner">
-            <img src={codai} alt="" className="project__card-img" />
+        {/* Adicione outros cartões de portfólio aqui */}
+        
+        <motion.div
+          className="portfolio__card"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}>
+          <a href="#" className="project__banner">
+            <motion.img
+              src={codai}
+              alt=""
+              className="project__card-img"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+            />
           </a>
           <div className="project__content">
             <h3>Codaí</h3>
@@ -69,13 +86,22 @@ const Portfolio = () => {
               <i className="uil uil-eye"></i>
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="portfolio__column">
-        <div className="portfolio__card">
-        <a href="#" className="project__banner">
-            <img src={expansive} alt="" className="project__card-img" />
+        <motion.div
+          className="portfolio__card"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}>
+          <a href="#" className="project__banner">
+            <motion.img
+              src={expansive}
+              alt=""
+              className="project__card-img"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+            />
           </a>
           <div className="project__content">
             <h3>Tracker Expansive</h3>
@@ -97,10 +123,20 @@ const Portfolio = () => {
               <i className="uil uil-eye"></i>
             </a>
           </div>
-        </div>
-        <div className="portfolio__card">
-        <a href="#" className="project__banner">
-            <img src={hub} alt="" className="project__card-img" />
+        </motion.div>
+
+        <motion.div
+          className="portfolio__card"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}>
+          <a href="#" className="project__banner">
+            <motion.img
+              src={hub}
+              alt=""
+              className="project__card-img"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+            />
           </a>
           <div className="project__content">
             <h3>Hub atividades Growdev</h3>
@@ -121,10 +157,10 @@ const Portfolio = () => {
               <i className="uil uil-eye"></i>
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
 };
 
-export default Portfolio
+export default Portfolio;

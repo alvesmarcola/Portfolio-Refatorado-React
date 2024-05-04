@@ -21,3 +21,8 @@
     display: flex;
     gap: 35px;
 }
+
+.footer__social-link,
+.footer__link-bottom{
+    color: #986dff;
+}
