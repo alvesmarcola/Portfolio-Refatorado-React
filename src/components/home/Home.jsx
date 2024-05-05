@@ -9,7 +9,7 @@ const Home = () => {
       id="home"
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1.8 }}
+      transition={{ duration: 2.5 }}
     >
       <div className="home__container container grid">
         <div className="home__content">
