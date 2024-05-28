@@ -75,10 +75,8 @@ function Sidebar({ changeLanguage }) {
                 <div className="languages">
                     <ul>
                         <li className="nav__item language">
-                            <a href="#" onClick={() => handleLanguageChange(language === 'en' ? 'pt' : 'en')} data-translate={language === 'en' ? 'portuguese' : 'english'}>
-                                {language === 'en' ? ptFlag : enFlag}
-                            </a>
-
+                            <input type="checkbox" id="check" class="switch-button" onClick={() => handleLanguageChange(language === 'en' ? 'pt' : 'en')} data-translate={language === 'en' ? 'portuguese' : 'english'} />
+                            <label for="check"></label>
                         </li>
                     </ul>
                 </div>

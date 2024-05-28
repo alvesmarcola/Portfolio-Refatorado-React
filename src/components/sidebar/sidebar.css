@@ -2,7 +2,7 @@
     max-width: 968px;
     height: var(--header-height);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   header{
@@ -152,6 +152,7 @@
     border: 1px solid;
     z-index: 1000;
     background-color: var(--body-color);
+    width: 100%;
     }
 
     .nav__menu.show-menu {
@@ -162,3 +163,44 @@
     }
 }
 
+.switch-button{
+  position: absolute;
+  cursor: pointer;
+  left: -900000px;
+  top: -900000px;
+  opacity: 0;
+}
+
+.switch-button + label{
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switch-button + label::after{
+  position: absolute;
+  left: .1rem;
+  width: 2rem;
+  height: 2rem;
+  content: '';
+  border-radius: 1.15rem;
+  background-image: url(../../assets/images/brazil-.png);
+  background-size: contain;
+  transition: all 300ms ease-in-out;
+}
+
+.switch-button + label::before{
+  content: '';
+  width: 4rem;
+  height: 2rem;
+  border-radius: 1.25rem;
+  background-color: var(--color-1-button);
+  box-shadow: inset 0 0 .5rem rgba(0, 0, 0, 0.308);
+}
+
+.switch-button:checked + label::after{
+  transform: translateX(2.5rem);
+  background-image: url(../../assets/images/united-states.png);
+  background-size: contain;
+} 
